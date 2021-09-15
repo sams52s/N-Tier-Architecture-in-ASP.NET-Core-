@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b6861fa36b2a488584e54145b07a467a" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="Model.advertise_categories" Width="1.5" PointX="6" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.advertise_comments" Width="1.5" PointX="5.25" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.advertise_locations" Width="1.5" PointX="10.5" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.advertise_reacts" Width="1.5" PointX="5.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.advertiser" Width="1.5" PointX="5.25" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.advertis" Width="1.5" PointX="8.25" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.company_categories" Width="1.5" PointX="3" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.featured_advertises" Width="1.5" PointX="10.5" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.review_comments" Width="1.5" PointX="15.75" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.review_reacts" Width="1.5" PointX="15.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.review" Width="1.5" PointX="13.5" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.user_locations" Width="1.5" PointX="5.25" PointY="27" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.user_types" Width="1.5" PointX="0.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.user" Width="1.5" PointX="3" PointY="11.5" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_advertises_advertise_categories" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_advertise_comments_advertises" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_advertise_comments_users" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_advertise_locations_advertises" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_advertise_reacts_advertises" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_advertise_reacts_users" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_advertisers_company_categories" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_advertisers_users" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_advertises_users" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_featured_advertises_advertises" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_reviews_advertises" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_review_comments_reviews" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_review_comments_users" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_review_reacts_reviews" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_review_reacts_users" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_reviews_users" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_user_locations_users" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_users_user_types" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
